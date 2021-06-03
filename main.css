@@ -1,0 +1,331 @@
+* { 
+margin:0;
+padding:0;
+}
+
+
+body {
+	margin: 0;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+
+p{
+	margin: 20px 0px 0px 0px;
+}
+
+
+a {
+text-decoration: none;
+}
+
+
+a:link { color: #000000; 
+}
+
+a:visited { color: #A9A9A9; 
+}
+
+a:hover { color: #808080; 
+}
+
+form {
+	margin: 20px 0px 20px 0px;
+	padding:0;
+    font: normal 12pt "メイリオ",sans-serif;
+	line-height: 14pt;
+	color: #000000;
+}
+
+
+table.type01 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+}
+table.type01 th {
+	width: 100px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+table.type01 td {
+	width: 150px;
+	padding: 10px;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+
+/* ========================================  余白調整用 */
+.contentswrap{
+	margin: 40px 0px 0px 0px;
+	padding:0;
+}
+
+
+/* ========================================  ページ外枠 */
+#container {
+	width: 1000px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+
+/* ========================================  画面上部 */
+#header {
+	width: 1000px;
+	height: 86px;
+	margin: 0px;
+
+}
+
+
+/* ========================================  ロゴ */
+#logo a {
+	float: left;
+    width: 260px;
+    height: 86px;
+	margin: 0px;
+	background-image: url("img/logo.png");
+}
+
+
+#logo span{
+display:none;
+}
+
+
+#sprite {
+	float: right;
+    width: 740px;
+    height: 86px;
+	margin: 0px;
+}
+
+
+/* ========================================  メニュー */
+#menu {
+	float: left;
+    width: 480px;
+    height: 20px;
+	margin: 46px 0px 0px 0px;
+}
+
+
+div#navi{
+	width: 100%;
+	height: 20px;
+	background-image: url("img/sprite.png");
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+div#navi ul{
+	width: 480px;
+	height: 20px;
+	margin: 0 auto;
+}
+div#navi ul li{
+	float: left;
+	width: 120px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div#navi ul li a{
+	display: block;
+	width: 120px;
+	height: 20px;
+	margin: 0;
+	background-image: url("img/sprite.png");
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+}
+div#navi ul li a:focus{
+	outline: none;
+}
+
+div#navi ul li.navi01 a          { background-position: 0 0; }
+div#navi ul li.navi02 a          { background-position: -120px 0; }
+div#navi ul li.navi03 a          { background-position: -240px 0; }
+div#navi ul li.navi04 a          { background-position: -360px 0; }
+div#navi ul li.navi05 a          { background-position: -480px 0; }
+
+div#navi ul li.navi01 a:hover    { background-position: 0 -20px; }
+div#navi ul li.navi02 a:hover    { background-position: -120px -20px; }
+div#navi ul li.navi03 a:hover    { background-position: -240px -20px; }
+div#navi ul li.navi04 a:hover    { background-position: -360px -20px; }
+div#navi ul li.navi05 a:hover    { background-position: -480px -20px; }
+
+
+/* ========================================  アイコン */
+#icon {
+	float: right;
+    width: 114px;
+    height: 40px;
+	margin: 46px 32px 0px 0px;
+}
+
+#icon span{
+	display:none;
+}
+
+
+div#f a {
+	float: left;
+    width: 38px;
+    height: 40px;
+	background-image:url(img/ico.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+
+div#t a {
+	float: left;
+    width: 38px;
+    height: 40px;
+	background-image:url(img/ico.png);
+	background-repeat:no-repeat;
+	background-position:-38px 0;
+}
+
+
+div#r a {
+	float: right;
+    width: 38px;
+    height: 40px;
+	background-image:url(img/ico.png);
+	background-repeat:no-repeat;
+	background-position:-76px 0;
+}
+
+
+/* ========================================  Flash部分 */
+#fla {
+	height: 240px;
+	margin: 5px 32px 0px 32px;
+}
+
+
+/* ========================================  mainスペース #mainとサイドメニューの外枠 */
+#contents{
+	padding: 20px 32px;
+	margin: 0px;
+}
+
+
+/* ========================================  画面中央mainスペース */
+#main {
+	float: none;
+	width: auto;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 32px;
+	padding-bottom: 0px;
+	padding-left: 32px;
+}
+
+
+/* ========================================  グレー文字 */
+h1 {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	font: bold 18pt "メイリオ",sans-serif;
+	color: #808080;
+}
+
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+    font: normal 10pt "メイリオ",sans-serif;
+	line-height: 20pt;
+	color: #808080;
+}
+
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+    font: normal 10pt "メイリオ",sans-serif;
+	line-height: 20pt;
+	color: #808080;
+}
+
+
+
+/* ========================================  黒文字 */
+.p12 {
+	padding: 0px;
+	margin: 20px 0px 10px 0px;
+    font: normal 12pt "メイリオ",sans-serif;
+	line-height: 15pt;
+	color: #000000;
+}
+
+
+.p9 {
+	padding: 0px;
+	margin: 0px;
+    font: normal 9pt "メイリオ",sans-serif;
+	line-height: 12pt;
+	color: #000000;
+}
+
+
+/* ========================================  右寄せリンク文字 */
+.toinfo {
+	margin: 0px 0px 20px;
+	text-align: right;
+	font: normal 10pt "メイリオ",sans-serif;
+	color: #808080;
+}
+
+
+/* ========================================  画像 */
+.photo {
+	margin: 20px 0px;
+}
+
+
+/* ========================================  点線罫線 */
+.kei {
+	margin: 0px 0px 10px 0px;
+	border-top: 1px dashed #808080;
+}
+
+
+/* ========================================  go to top */
+#back {
+	float: right;
+	margin: 10px 0px;
+}
+
+
+/* ========================================  画面下部 */
+#under{
+	clear: both;
+	margin: 0px;
+	text-align: center;
+}
+
+
+/* ========================================  フッター */
+#footer {
+	width: 936px;
+	height: 30px;
+    padding: 9px 0;
+	margin: 0px 32px;
+	color: #000000;
+	font: normal 8pt "メイリオ",sans-serif;
+	text-align: center;
+	background-image: url("img/foot.gif");
+	background-repeat: no-repeat;
+}
+
+
+
